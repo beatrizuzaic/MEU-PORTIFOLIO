@@ -1,0 +1,55 @@
+/*Cores 1-FFCF99 2-A53F2B 3-4C230A 4-280004*/
+*   {
+    box-sizing: border-box;
+    }
+header 
+    {
+        font-family: "Bricolage Grotesque", sans-serif;
+        background-color: #a53f2b;
+        color: beige;
+        padding: 24px;
+    }
+nav a
+    {
+        text-decoration: none;
+        font-family: "Alumni Sans", sans-serif;
+        color: beige;
+    }
+nav a:hover
+{color: white;}
+main
+    {   
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+    }
+body
+    {
+        margin: 0;
+        font-family: "Smooch Sans", sans-serif;
+        font-size: 1.15rem;
+        line-height: "1.6";
+    }
+h1
+    {
+        font-size: 2.5rem;
+    }
+h2
+    {
+        font-size: 1.75rem;
+    }
+h3
+    {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 1.25rem;
+    }
+h4
+    {
+    font-size: 1.25rem;
+    }
+footer
+    {  
+        background-color: #a53f2b;
+        color: beige;
+        padding: 24px;
+    }
