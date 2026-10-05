@@ -1,55 +1,80 @@
 /*Cores 1-FFCF99 2-A53F2B 3-4C230A 4-280004*/
-*   {
-    box-sizing: border-box;
-    }
-header 
-    {
-        font-family: "Bricolage Grotesque", sans-serif;
-        background-color: #a53f2b;
-        color: beige;
-        padding: 24px;
-    }
+*   {box-sizing: border-box;}
+header
+    {font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #a53f2b;
+    color: #ffcf99;
+    padding: 24px;}
 nav a
-    {
-        text-decoration: none;
-        font-family: "Alumni Sans", sans-serif;
-        color: beige;
-    }
+    {text-decoration: none;
+    font-family: "Alumni Sans", sans-serif;
+    color: beige;}
 nav a:hover
-{color: white;}
+    {color: #4c230a;
+    padding: 8px;
+    border-radius: 6px}
+nav ul
+    {list-style: none;}
 main
-    {   
-    max-width: 900px;
+    {max-width: 900px;
     margin: 0 auto;
-    padding: 16px;
-    }
+    padding: 16px;}
 body
-    {
-        margin: 0;
-        font-family: "Smooch Sans", sans-serif;
-        font-size: 1.15rem;
-        line-height: "1.6";
-    }
+    {margin: 0;
+    font-family: "Smooch Sans", sans-serif;
+    font-size: 1.15rem;
+    line-height: "1.6";}
 h1
-    {
-        font-size: 2.5rem;
-    }
+    {font-size: 2.5rem;}
 h2
-    {
-        font-size: 1.75rem;
-    }
+    {font-size: 1.75rem;}
 h3
-    {
-        font-family: "Bebas Neue", sans-serif;
-        font-size: 1.25rem;
-    }
-h4
-    {
+    {font-family: "Bebas Neue", sans-serif;
     font-size: 1.25rem;
-    }
+    color: #280004}
+a
+    {text-decoration: none;}
+h4
+    {font-size: 1.25rem;
+    color: #280004;}
+
 footer
-    {  
-        background-color: #a53f2b;
-        color: beige;
-        padding: 24px;
-    }
+    {background-color: #a53f2b;
+    color: beige;
+    padding: 24px;}
+footer a
+    {text-decoration: none;
+    color: beige;}
+footer a:hover
+    {color: #4c230a;}
+table
+    {max-width: 100%;
+    border: 1px;
+    border-collapse: collapse;}
+table thead
+    {background-color: #ffcf99;
+    color: #4c230a;
+    font-weight: bold;}
+table th
+    {padding: 12px;}
+table td
+    {background-color: blanchedalmond;
+    padding: 12px;}
+input, select, textarea
+    {width: 100%;
+    padding: 10px;
+    margin-bottom: 16px}
+input, select, textarea:focus
+    {border: 2px solid #a53f2b;}
+button
+    {background-color: #ffcf99;
+    color: #4c230a;
+    border-bottom: 0;
+    cursor: pointer;}
+.destaque
+    {background-color: beige;
+    color: #4c230a;
+    border-left: 4px;
+    padding: 16px;}
+
+    /*A classe não ficou em vermelho pois ela sobrescreve a regra da tag P*/
