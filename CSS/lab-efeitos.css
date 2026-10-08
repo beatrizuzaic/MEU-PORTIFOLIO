@@ -1,0 +1,23 @@
+.caixa
+    {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    margin: 40px;
+    transition: 1s linear;
+    }
+.caixa:hover
+    {
+    transform: rotate(10deg);
+    }
+.botao:active
+    {
+        transform: scale(0.95);
+    }
+
+    
+/*Ao adicionar o rotate a caixa gira de forma brusca*/
+/*Ao adicionar o transition o movimento ficou mais suave*/
+/*Ao mudar o tempo para 1s o movimento ficou mais devagar*/
+/*O mais natural parece ser o linear*/
+/*O botão faz com que ao clicar fique menor*/

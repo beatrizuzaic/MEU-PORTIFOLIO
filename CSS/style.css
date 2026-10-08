@@ -60,6 +60,8 @@ table th
 table td
     {background-color: blanchedalmond;
     padding: 12px;}
+tbody tr:nth-child(even)
+    {background: var(--cor-suave);}
 input, select, textarea
     {width: 100%;
     padding: 10px;
@@ -76,5 +78,7 @@ button
     color: #4c230a;
     border-left: 4px;
     padding: 16px;}
+:root
+    {--cor-suave: #cac4ba;}
 
     /*A classe não ficou em vermelho pois ela sobrescreve a regra da tag P*/
